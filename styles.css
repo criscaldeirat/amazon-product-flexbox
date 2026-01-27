@@ -2,15 +2,29 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-.title {
-    font-weight: lighter;
+
+.div-main {
+    display: flex;
+}
+
+/*  1 ROW ELEMENTS  */
+
+.div-1row {
+    text-align: center;
+}
+
+.div-1row > p {
+    color: #565959;
 }
 
 .main-img {
     box-shadow: 0px 2px 5px lightgray;
 }
 
-.div-main {
-    display: flexbox;
-    
+/*  2 ROW ELEMENTS  */
+
+.title {
+    font-weight: lighter;
 }
+
+
